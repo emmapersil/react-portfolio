@@ -1,6 +1,6 @@
 import React from 'react';
 import './nav.css';
-import { AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineMessage } from 'react-icons/ai';
+import { AiOutlineHome, AiOutlineUser, AiOutlineLaptop, AiOutlineBook, AiOutlineMessage } from 'react-icons/ai';
 import { useState } from 'react';
 
 const Nav = () => {
@@ -18,6 +18,12 @@ const Nav = () => {
         onClick={() => setActiveNav('#about')}
         className={activeNav === '#about' ? 'active' : ''}>
           <AiOutlineUser />
+      </a>
+      <a 
+        href="#works"
+        onClick={() => setActiveNav('#works')}
+        className={activeNav === '#works' ? 'active' : ''}>
+          <AiOutlineLaptop />
       </a>
       <a 
         href="#portfolio"
