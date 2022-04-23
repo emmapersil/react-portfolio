@@ -35,7 +35,7 @@ const About = () => {
             <article className='about__card'>
               <AiOutlineFolderOpen className='about__icon'/>
               <h5>Projetos</h5>
-              <small>10+ completados</small>
+              <small>20+ completados</small>
             </article>
           </div>
 

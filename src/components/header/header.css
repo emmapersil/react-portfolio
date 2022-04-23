@@ -1,6 +1,6 @@
 header{
   height: 50rem;
-  padding-top: 7rem;
+  padding-top: 2rem;
   overflow: hidden;
 }
 
@@ -26,7 +26,8 @@ header{
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 15rem;
+
 }
 
 .header__socials::after {
@@ -35,6 +36,10 @@ header{
   height: 2rem;
   background: var(--color-primary);
 
+}
+
+.social__icon {
+  font-size: 1.5rem;
 }
 
 /* === IMAGE === */
@@ -54,10 +59,10 @@ header{
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 5rem;
+  bottom: 18rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 /* === MEDIA QUERIES - MEDIUM DEVICES === */

@@ -1,61 +1,61 @@
 import React from 'react';
 import { BsPatchCheckFill } from 'react-icons/bs';
-import './experience.css';
+import './technologies.css';
 
-const Experience = () => {
+const Technologies = () => {
   return (
-    <section id='experience'>
+    <section id='technologies'>
       <h5>O que sei fazer</h5>
-      <h2>Habilidades</h2>
+      <h2>Tecnologias</h2>
 
-      <div className="container experience__container">
-        <div className='experience__frontend'>
+      <div className="container technologies__container">
+        <div className='technologies__frontend'>
 
           <h3>Frontend Development</h3>
 
-          <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+          <div className="technologies__content">
+            <article className='technologies__details'>
+              <BsPatchCheckFill className='technologies__details-icon' />
               <div>
                 <h4>HTML/CSS</h4>
                 <small className='text-light'>Experiente</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <article className='technologies__details'>
+              <BsPatchCheckFill className='technologies__details-icon' />
               <div>
                 <h4>JavaScript</h4>
                 <small className='text-light'>Experiente</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <article className='technologies__details'>
+              <BsPatchCheckFill className='technologies__details-icon' />
               <div>
                 <h4>React</h4>
                 <small className='text-light'>Intermediário</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <article className='technologies__details'>
+              <BsPatchCheckFill className='technologies__details-icon' />
               <div>
                 <h4>Redux</h4>
                 <small className='text-light'>Intermediário</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <article className='technologies__details'>
+              <BsPatchCheckFill className='technologies__details-icon' />
               <div>
                 <h4>Context API</h4>
                 <small className='text-light'>Intermediário</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <article className='technologies__details'>
+              <BsPatchCheckFill className='technologies__details-icon' />
               <div>
                 <h4>React Testing Library</h4>
                 <small className='text-light'>Experiente</small>
@@ -64,52 +64,52 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className='experience__backend'>
+        <div className='technologies__backend'>
           <h3>Backend Development</h3>
          
-          <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
+          <div className="technologies__content">
+            <article className='technologies__details'>
+              <BsPatchCheckFill className='technologies__details-icon'/>
               <div>
                 <h4>Docker</h4>
                 <small className='text-light'>Intermediário</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <article className='technologies__details'>
+              <BsPatchCheckFill className='technologies__details-icon' />
               <div>
                 <h4>MySQL</h4>
                 <small className='text-light'>Básico</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <article className='technologies__details'>
+              <BsPatchCheckFill className='technologies__details-icon' />
               <div>
                 <h4>Node.js: Express</h4>
                 <small className='text-light'>Intermediário</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <article className='technologies__details'>
+              <BsPatchCheckFill className='technologies__details-icon' />
               <div>
                 <h4>Mocha, Chai e Sinon</h4>
                 <small className='text-light'>Intermediário</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <article className='technologies__details'>
+              <BsPatchCheckFill className='technologies__details-icon' />
               <div>
-                <h4>Arquitetura Restul</h4>
+                <h4>Arquitetura Rest</h4>
                 <small className='text-light'>Intermediário</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <article className='technologies__details'>
+              <BsPatchCheckFill className='technologies__details-icon' />
               <div>
                 <h4>Node.js: ORM</h4>
                 <small className='text-light'>Básico</small>
@@ -122,4 +122,4 @@ const Experience = () => {
   )
 }
 
-export default Experience;
+export default Technologies;

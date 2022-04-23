@@ -9,14 +9,14 @@ const HeaderSocials = () => {
           href="https://www.linkedin.com/in/emmanuelle-pereira-dev/"
           target="_blank"
           rel="noopener noreferrer">
-          <BsLinkedin />
+          <BsLinkedin className='social__icon'/>
         </a>
         <a 
           href="https://github.com/emmapersil"
           target="_blank"
           rel="noopener noreferrer">
-            <FaGithub />
-          </a>
+            <FaGithub className='social__icon'/>
+        </a>
     </div>
   )
 }
