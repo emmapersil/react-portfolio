@@ -29,7 +29,10 @@ function Testimonials() {
       <h2>Recomendações</h2>
 
       <Swiper className="mySwiper container testimonials__container"
-       pagination={true} modules={[Pagination]} 
+        spaceBetween={40}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+        modules={[Pagination]} 
       >
         {
           testimonialsData.map(({ avatar, name, review }, index) => {
