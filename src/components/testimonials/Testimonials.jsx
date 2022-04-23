@@ -22,7 +22,7 @@ const testimonialsData = [
   }
 ]
 
-function Testimonials() {
+const Testimonials = () => {
   return (
     <section id='testimonials'>
       <h5>O que dizem do meu trabalho</h5>
