@@ -10,7 +10,7 @@ const portfolioData = [
     image: IMG1,
     title: 'Star Wars Planet Search',
     github: 'https://github.com/emmapersil/star-wars-planets-search',
-    demo: 'https://github.com/emmapersil/star-wars-planets-search/blob/main/screen-captures/filter-table.gif'
+    demo: 'https://planets-search-sw.herokuapp.com/'
   },
   {
     id: 2,
