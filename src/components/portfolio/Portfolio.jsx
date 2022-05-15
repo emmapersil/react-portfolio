@@ -24,7 +24,7 @@ const portfolioData = [
     image: IMG3,
     title: 'Wallet',
     github: 'https://github.com/emmapersil/wallet',
-    demo: 'https://github.com/emmapersil/wallet/blob/main/assets/using-wallet.gif'
+    demo: 'https://personal-wallet.vercel.app/'
   }
 ]
 
