@@ -20,11 +20,14 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className='about__card'>
+            <a className='about__card link'
+            href="https://www.linkedin.com/in/emmanuelle-pereira-dev/"
+            target="_blank"
+            rel="noopener noreferrer">
               <FaAward className='about__icon'/>
               <h5>Experiência</h5>
               <small>1 ano</small>
-            </article>
+            </a>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
@@ -32,11 +35,14 @@ const About = () => {
               <small>Seja o primeiro!</small>
             </article>
 
-            <article className='about__card'>
+            <a className='about__card link'
+            href="https://github.com/emmapersil"
+            target="_blank"
+            rel="noopener noreferrer">
               <AiOutlineFolderOpen className='about__icon'/>
               <h5>Projetos</h5>
               <small>20+ completados</small>
-            </article>
+            </a>
           </div>
 
           <p>
