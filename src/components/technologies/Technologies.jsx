@@ -79,8 +79,8 @@ const Technologies = () => {
             <article className='technologies__details'>
               <BsPatchCheckFill className='technologies__details-icon' />
               <div>
-                <h4>MySQL</h4>
-                <small className='text-light'>Básico</small>
+                <h4>MySQL e MongoDB</h4>
+                <small className='text-light'>Intermediário</small>
               </div>
             </article>
 
@@ -88,7 +88,7 @@ const Technologies = () => {
               <BsPatchCheckFill className='technologies__details-icon' />
               <div>
                 <h4>Node.js: Express</h4>
-                <small className='text-light'>Intermediário</small>
+                <small className='text-light'>Avançado</small>
               </div>
             </article>
 
@@ -111,8 +111,8 @@ const Technologies = () => {
             <article className='technologies__details'>
               <BsPatchCheckFill className='technologies__details-icon' />
               <div>
-                <h4>Node.js: ORM</h4>
-                <small className='text-light'>Básico</small>
+                <h4>TypeScript</h4>
+                <small className='text-light'>Intermediário</small>
               </div>
             </article>
           </div>  
